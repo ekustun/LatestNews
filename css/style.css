@@ -67,13 +67,19 @@ header{
 
 
 }
-
+table{
+	border: 2px solid red;
+	width: 800px;
+}
 .table-1{
-	margin-left: 135px;
+	margin-left: 300px;
 }
 
 tbody{
 	border:2px solid red;
+}
+tr{
+	width: 100px;
 }
 .row-1{
 	border: 2px solid red;
@@ -99,7 +105,65 @@ tbody{
 
 }
 
+.football-title{
+	display: block;
+	float: left;
+	margin-right: 200px;
 
+}
+
+.football-text{
+	margin-top:10px;
+	margin-bottom: 10px;
+	display: block;
+	margin-right: 200px;
+	float: left;
+	text-align: justify;
+
+
+}
+.BUTTON_GGO {
+
+
+    
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color: #eaaf46;
+	border-radius:5px;
+	
+	display:inline-block;
+	cursor:pointer;
+	color: black;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	border: none;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+	float: left;
+	
+}
+.BUTTON_GGO-1 {
+
+
+    
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color: #eaaf46;
+	border-radius:5px;
+	
+	display:inline-block;
+	cursor:pointer;
+	color: black;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	border: none;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+	float: right;
+	
+}
 
 /* SECTION 3 - FOLLOW US */
 
@@ -137,11 +201,3 @@ footer{
 
 	margin: 30px;
 }
-
-
-
-
-
-
-
-
